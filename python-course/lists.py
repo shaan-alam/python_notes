@@ -1,57 +1,34 @@
-# Lists 
-# Ordered Sequence
-# Flexible
-# Can store many type of data
-# Mutable
+# Python lists
 
-mix = [2, 3.7, 'hi']
+list = [1, 2, 3, 4, 5, 6]
 
-# Printing the type
-print (type(mix))
+# index => returns the index of the specified element in the list
+# index => list.index(element, start, end)
+# start => start searching from this index
+# end => search upto this index
 
-# Printing the whole list
-print ("List = ", mix)
+print (list.index(4))
 
-# Printing the individual list items
-print ("First item = ", mix[0])
-print ("Second item = ", mix[1])
-print ("Third item = ", mix[2])
+# append => add an item to the end of the list
+list.append(7)
+list.append(8)
+list.append(9)
 
-# Extracting data from list
-# Syntax = list[<start_index>:<end_index>] => <end_index> is not included
-print (mix[0:3])
-
-# Changing list items
-mix[0] = 'First element'
-print ("After changing the first element : ", mix)
-
-# Changing the whole list
-mix = [0, 1, 2, 3, 4]
-print ("After changing the whole list : ", mix)
-
-# List methods
-
-fruits = ['apple', 'banana', 'guava', 'mango']
-
-# len(list) => to get the length of the list
-print ("Length of fruits list : ", len(fruits))
-
-# Creating list from list constructor
-list = list((1, 2, 3, 4))
 print (list)
 
-# Negative indexing
-print ("Last Item = ", fruits[-1])
+# extend => adds all the elements of an iterable to the end of the list
+list2 = [10, 11]
+list.extend(list2)
+print (list)
 
-# Extracting whole list
-print (fruits[0:])
+# insert => insert an element in to the list at a specific index
+list.insert(0, 0)
+print (list)
 
-# in keyword
-print ('banana' in fruits)
+# remove => removes an element from the list
+list.remove(8)
+list.remove(9)
+print (list)
 
-# appending to list
-fruits2 = ["orange", "pineapple", "strawberries"]
-fruits.extend(fruits2)
-
-print ("After extending the list : ", fruits)
-
+# count => returns the count of an element in the list
+print (list.count(0))
