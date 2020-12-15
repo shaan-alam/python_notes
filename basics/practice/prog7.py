@@ -5,11 +5,8 @@ def sum_of_multiples(limit):
     multiples = []
 
     for i in range(limit + 1):
-        if (i % 3 == 0 or i % 5 == 0) and multiples.count(i) == 0:
-            multiples.append(i)
-
-    for i in multiples:
-        sum += i
+        if (i % 3 == 0 or i % 5 == 0):
+            sum += i
     
     return sum
 
