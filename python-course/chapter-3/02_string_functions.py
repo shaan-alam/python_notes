@@ -1,5 +1,4 @@
 # string functions
-
 story = "Once upon a time, there was a code named Shaan Alam who learned Python"
 
 # string functions
