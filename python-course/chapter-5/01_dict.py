@@ -17,4 +17,3 @@ print (myDict['Shaan Alam'])
 print (myDict['Marks'])
 print (myDict['name']['firstName'])
 print (myDict['city'])
-
