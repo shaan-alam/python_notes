@@ -9,6 +9,7 @@ print ("3 - Multiplication.")
 print ("4 - Division.")
 print ("5 - Find Power.")
 print ("6 - Find remainder.")
+
 choice = int(input("Enter your choice : "))
 
 print ("First number = ", number1)
