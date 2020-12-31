@@ -1,3 +1,7 @@
+
+# Question 6
+# WAP to find the area of the rectangle
+
 length = eval(input("Enter the length: "))
 breadth = eval(input("Enter the breadth: "))
 

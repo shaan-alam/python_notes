@@ -1,3 +1,7 @@
+
+# Question 9
+# WAP to check if a number is a prime number or not
+
 number = int(input("Enter number: "))
 
 factors = 0

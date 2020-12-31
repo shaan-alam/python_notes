@@ -1,3 +1,7 @@
+
+# Question 16
+# WAP to print the fibonacci series. (using functions)
+
 def fib(n):
   a =  0
   b = 1

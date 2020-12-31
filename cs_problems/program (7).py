@@ -1,3 +1,7 @@
+
+# Question 7
+# WAP to print the multiplication table of a number (entered by user).
+
 number = eval(input("Enter number : "))
 
 print ("Multiplication Table of ", number)

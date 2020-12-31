@@ -1,3 +1,8 @@
+
+# Question 3
+# WAP to calculate the area of the triangle (if possible, else print an appropriate message)
+
+
 side1 = eval(input("Enter first side: "))
 side2 = eval(input("Enter second side: "))
 side3 = eval(input("Entrer third side: "))

@@ -1,3 +1,7 @@
+
+# Question 15
+# WAP to enter two numbers and an operator and perform the respective operation (using functions)
+
 import math
 
 number1 = eval(input("Enter the first number : "))
@@ -14,23 +18,42 @@ choice = input("Enter your choice : ")
 print ("First number = ", number1)
 print ("Second number = ", number2)
 
+
+def add (num1, num2):
+  return num1 + num2
+
+def substract(num1, num2):
+  return num1 - num2
+
+def multiply(num1, num2):
+  return num1 * num2
+
+def divide(num1, num2):
+  return num1 / num2
+
+def power(num1, num2):
+  return math.pow(num1, num2)
+
+def findRemainder(num1, num2):
+  return num1 % num2
+
 if choice == '+':
-    sum = number1 + number2
+    sum = add(number1, number2)
     print ("Sum = ", sum)
 elif choice == '-':
-    difference = number1 - number2
+    difference = substract(number1, number2)
     print ("Difference = ", difference)
 elif choice == '*':
-    product = number1 * number2
+    product = multiply(number1, number2)
     print ("Product = ", product)
 elif choice == '/':
-    quotient = number1 / number2
+    quotient = divide(number1, number2)
     print ("Quotient = ", quotient)
 elif choice == '^':
-    powerValue = math.pow(number1, number2)
+    powerValue = power(number1, number2)
     print ("Number1 ^ Number2 = ", powerValue)
 elif choice == '%':
-    remainder = number1 % Number2
+    remainder = findRemainder(number1, number2)
     print ("Remainder = ", remainder)
 else:
     print ("Wrong choice entered...Please try again!!")

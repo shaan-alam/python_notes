@@ -1,3 +1,8 @@
+
+# Question 18
+# Write a function test to check if a number lies within a range.
+# Enter staring and ending range values from the user
+
 def test(start, end, number):
   if number >= start and number <= end:
     print (number,"is in range.")

@@ -1,4 +1,7 @@
 
+# Question 24
+# WAP to print the fibonacci series upto n terms
+
 n = int(input("Enter no of terms : "))
 
 if n <= 0:

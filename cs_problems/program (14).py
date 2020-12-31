@@ -1,3 +1,8 @@
+
+# Question 14
+# WAP to enter time, rate, and principle from the user & calculate the 
+# simple interest. (using functions) 
+
 def simpleInterest(time, rate, principle):
   SI = (principle * rate * time) / 100
   return SI
