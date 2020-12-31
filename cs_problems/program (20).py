@@ -5,7 +5,7 @@
 string = str(input("Enter the string: "))
 substring = str(input("Enter the substring: "))
 
-if (substring in string):
+if substring in string:
   print (substring, "exists in the original string.")
 else:
-  print (substring, "exists in the original string.")
+  print (substring, "does not exists in the original string.")
