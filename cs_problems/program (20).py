@@ -9,3 +9,6 @@ if substring in string:
   print (substring, "exists in the original string.")
 else:
   print (substring, "does not exists in the original string.")
+
+
+# This comment is just to make a commit on JAN 1, 2021
