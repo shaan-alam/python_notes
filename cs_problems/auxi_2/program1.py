@@ -1,7 +1,6 @@
 # Question 1
 # Find the common characters in the string
 
-# Commit on jan 7
 
 string1 = input("Enter the string 1 : ")
 string2 = input("Enter the string 2 : ")
