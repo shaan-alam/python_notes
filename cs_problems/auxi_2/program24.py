@@ -1,6 +1,6 @@
 
 # JAN 27
-# WAP to print the sum of two matrix
+# Question 24 - WAP to print the sum of two matrix
 
 def takeInput(row, col):
   matrix = []

@@ -1,5 +1,5 @@
 # JAN 27
-# WA python program to create a matrix that will take values from the user
+# Question 23 - WAP python program to create a matrix that will take values from the user
 # Also display the matrix
 
 

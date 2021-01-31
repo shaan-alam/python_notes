@@ -1,3 +1,5 @@
+# JAN 6 
+
 # Question 1
 # Find the common characters in the string
 

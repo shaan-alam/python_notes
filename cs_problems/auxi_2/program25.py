@@ -1,7 +1,7 @@
 
 # JAN 27 
 
-# WAP to transpose a matrix
+# Question 25 - WAP to transpose a matrix
 
 def getTranspose(matrix):
   transpose = []
