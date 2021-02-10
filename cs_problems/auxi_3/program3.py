@@ -1,4 +1,5 @@
 # FEB 5
+# Linear search example
 
 A = [1, 3, 5, 67, 34, 22, 90]
 
