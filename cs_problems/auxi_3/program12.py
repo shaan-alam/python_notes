@@ -18,6 +18,8 @@ def binary_search(list, x):
       start = mid + 1
     elif x < list[mid]:
       end = mid - 1
+  
+  return position
 
 
 list1 = []

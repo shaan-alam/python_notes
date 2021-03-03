@@ -8,4 +8,5 @@ dictionary = {}
 for x in range(1, 11):
   dictionary[x] = x ** 3
 
+print ("Result")
 print (dictionary)

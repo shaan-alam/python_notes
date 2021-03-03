@@ -1,4 +1,14 @@
 # FEB 24
+# Question 14 - Define a class Rectangle. The class should contain sides: length and breadth of the rectangle as data members. It should report the following methods
+
+# (a) - __init__ for initializing data members length and breadth
+# (b) - setLength() for updating the length of the rectangle
+# (c) - setBreadth() for updating the breadth of the rectangle
+# (d) - getLength() for retrieving the length of the rectangle
+# (e) - getBreadth() for retrieving the breadth of the rectangle
+# (f) - area() to find the area of the rectangle
+# (g) - perimeter() to find the perimeter of the rectangle
+
 
 class Rectangle:
   length = 0
